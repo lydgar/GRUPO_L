@@ -1,0 +1,125 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Golos+Text&family=Inconsolata:wght@200;300;400;500;600&family=Josefin+Sans:ital,wght@0,100;1,100;1,300;1,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/*MENU*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+
+}
+
+.menu li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.menu li a {
+    font-size: 1rem;
+    text-transform:uppercase ;
+}
+/* header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+/*MAIN- LA PRIMERA SECCION*/
+
+section .seccionUno {
+    height: 400px;
+    width: 100%;
+    background-image: url("/assets/portada\ header.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    
+}
+.seccionUno h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.seccionDos {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+
+.seccionDos p, h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+
+}
+.carousel-inner {
+    height: 500px;
+}
+
+aside {
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: solid 1px #a13614;
+    box-shadow: 2px 3px 5px #a13614;
+}
+
+form  {
+    margin-bottom: 50px;
+    column-rule: #a13614;
+}
+
+form input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 10px;
+}
+
+div .pasosReserva ol li {
+    list-style-type: upper-latin;
+}
+
+/*FOOTER*/
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px;
+}
+
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
